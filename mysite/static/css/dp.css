@@ -1,0 +1,22 @@
+body{
+    background: #F9F9F9;
+}
+
+.infotb{
+    font-family: 'Luxurious Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.destaq{
+    font-style: italic;
+    width: 75%;
+}
+
+.infoli{
+    height: 50px;
+}
+

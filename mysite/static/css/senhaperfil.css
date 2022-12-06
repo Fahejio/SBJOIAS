@@ -1,0 +1,23 @@
+.senha{
+    background-color: #F9F9F9;
+    width: 500px;
+    height: 200px;
+}
+
+.sessão{
+    background-color: #F9F9F9;
+    width: 500px;
+    height: 200px;
+}
+
+p{
+    margin: 10%;
+    font-family: 'Luxurious Roman';
+    font-style: italic;
+    font-size: 20px;
+}
+
+.destq{
+    color: #AC9F9F;
+    font-style: normal;
+}
