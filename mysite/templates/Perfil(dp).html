@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/estilo_header.css"  rel="stylesheet" >
+    <link rel="shortcut icon" href="img/home.ico" type="image/x-icon">
+    <link href="../css/Perfil.css"  rel="stylesheet" >
+    <link rel="stylesheet" href="../css/rodape.css">
+    <title>Meu Perfil</title>
+</head>
+<body>
+    <header>
+            <div class="container">
+                <nav id="nav"> 
+                    <div class="logo_inicial">
+                      <a href="home.html"><img src="img/WhatsApp Image 2022-09-06 at 20.56.25.jpeg" alt="Sb-joias" width="150px"  height="100px">     </a>  
+                    </div>
+                    
+                    <div class="barra_pesquisa">
+                        <input type="text" placeholder="Uma Joia para Eternizar Momentos">
+                        <img src="img/pesquisa-de-lupa.png" alt="" srcset="">
+                    </div>
+                
+                    <ul class="icons">
+                        <li class="icon"><a href="#"><img src="img/perfil-de-usuario.png" alt="Perfil"  width="40px" height="40px" ></a></li>
+                        <li class="icon"><a href="meus_favoritos.html"><img src="img/favorito.png" alt="favorito" width="40px" height="40px" ></a></li>
+                        <li class="icon"><a href="sacola.html"><img src="img/carrinho-carrinho (1).png" alt="Carrinho" width="40px" height="40"></a></li>
+                        <li class="icon"><a href="#"><img src="img/whatsapp.png" alt="Zap" width="40px" height="40px"></a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <nav >
+        <ul id="cat">
+            <li class="lista">
+                <a href="#">Brincos <img  src="img/sinal-de-seta-para-baixo-para-navegar.png" alt="seta" width="10px" ></a>
+            </li>
+
+            <li class="lista">
+                <a href="#">Colares <img  src="img/sinal-de-seta-para-baixo-para-navegar.png" alt="seta" width="10px" ></a>
+            </li>
+
+            <li class="lista">
+                <a href="#">Anéis <img  src="img/sinal-de-seta-para-baixo-para-navegar.png" alt="seta" width="10px" ></a>
+            </li>
+
+            <li class="lista">
+                <a href="#">Pulseira <img  src="img/sinal-de-seta-para-baixo-para-navegar.png" alt="seta" width="10px" ></a>
+            </li>
+            
+            <li class="lista">
+                <a href="#">Conjuntos <img   src="img/sinal-de-seta-para-baixo-para-navegar.png" alt="seta" width="10px" ></a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="linha4"></div>
+    
+    <div class="botões">
+        <a href="./dadospessoais.html" target="TeladeDados"><button class="botão">Dados Pessoais</button></a>
+        <a href="./Pedidos.html" target="TeladeDados"><button class="botão">Pedidos</button></a>
+        <a href="senhaperfil.html" target="TeladeDados"><button class="botão">Senha</button></a>
+        <a href="./Endereço.html" target="TeladeDados"><button class="botão">Endereço</button></a>
+        <div class="botão"><button class="open-modal-button">Opa</button></div>
+       
+          <div class="modal-container">
+            <div class="modal">
+              <p>
+                Tem certeza que deseja sair?
+              </p>
+             <a href="home.html"><p>SIM</p></a> 
+            </div>
+          </div>
+    </div>
+    <div class="FotoeTex">
+        <div class="fotoperfil"></div>
+        <p class="textperfil">Olá, Carla! </p>  
+    </div>
+    <div class="infoiframe">
+        <center>
+            <iframe src="./dadospessoais.html" name="TeladeDados" frameborder="4px" width="900px" height="550px" ></iframe>
+        </center>
+    </div>
+   
+    
+    <footer class="rodape">
+        <div class="mestre_rodape">
+            <div class="contatos">
+                <h3 class="rodape_texto_01">Contatos</h3>
+                <div>
+                     <a href="https://www.instagram.com/sb_joiass/" target="_blank"><img src="img/img_rodape/contato.png" alt="contatos"> </a> 
+                </div>
+            </div>
+          <div>
+            <h3 class="rodape_texto_01">Dúvidas</h3>
+            <div>
+                <h4 class="rodape_texto_02">Garantia</h4>
+                <h4 class="rodape_texto_02">Cuidados com as Peças</h4>
+            </div>
+          </div>
+          <div>
+            <h3 class="rodape_texto_01">SB-Joias</h3>
+            <div>
+                <h4 class="rodape_texto_02">Quem somos</h4>
+                <h4 class="rodape_texto_02">Trabalhe conosco</h4>
+            </div>
+          </div>  
+          <div>
+            <h3 class="rodape_texto_01">Formas de Pagamentos</h3>
+            <div>
+                <img src="img/img_rodape/formas de pagamentos.png" alt="Formas de Pagamento">
+            </div>
+          </div>
+          <div>
+            <img src="img/WhatsApp Image 2022-09-06 at 20.56.25.jpeg" alt="logo" width="300px" height="200px">
+          </div>
+        </div>
+    </footer>
+
+
+    <script src="js/modal_perfil.js"></script>
+</body>
+</html>

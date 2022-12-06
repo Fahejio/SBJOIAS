@@ -1,0 +1,50 @@
+.botao{
+    border-radius: 50%; 
+    background-color: transparent;
+    border-color: black;
+    width: 25px;
+    height: 25px;
+}
+body{
+  background-color: #d9d9d9 ;
+}
+
+.produto{
+  background-color: #FAB587;
+  display: flex;
+  box-shadow: 1px 3px 1px 1px rgba(0,0,0 ,0.2);
+
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.botoes {
+  display: flex;
+}
+
+.entrega {
+  box-shadow: 1px 3px 1px 1px rgba(0,0,0 ,0.2);
+  background-color: #FCD17D;
+  display: flex;
+  text-align: center;;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.totais {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  
+}
+
+.resumo{
+  background-color: #FAB587 ;
+  box-shadow: 1px 3px 1px 1px rgba(0,0,0 ,0.2);
+  text-align: center;
+}
