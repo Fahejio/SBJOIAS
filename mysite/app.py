@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 
+app = Flask(__name__)
 ###Rotas
-@app.route('/Perfil(DP)')
-def galeria():
-    return render_template("Perfil(DP).html")
+@app.route('/Perfil(dp)')
+def Perfil():
+    return render_template("Perfil(dp).html")
